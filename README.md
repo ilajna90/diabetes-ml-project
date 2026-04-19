@@ -96,8 +96,8 @@ To build a predictive model that can classify patients as diabetic or non-diabet
 ## Results Visualization
 
 ![Heatmap](images/heatmap.png)  
-![Outcome Distribution](images/countplot.png)
 
+---
 
 ## Results
 
