@@ -93,6 +93,12 @@ To build a predictive model that can classify patients as diabetic or non-diabet
 
 ---
 
+## Results Visualization
+
+![Heatmap](images/heatmap.png)  
+![Outcome Distribution](images/countplot.png)
+
+
 ## Results
 
 | Model               | Accuracy |
@@ -101,7 +107,11 @@ To build a predictive model that can classify patients as diabetic or non-diabet
 | Random Forest       | **~88%** |
 
 ---
+## Biological Interpretation
 
+Glucose levels showed the highest importance, which aligns with its role in insulin resistance and diabetes progression. BMI also contributes, as obesity is a major risk factor.
+
+---
 ## Evaluation Metrics
 
 * **Accuracy:** Overall correctness of predictions
@@ -148,6 +158,14 @@ diabetes-ml-project/
 │── README.md
 ```
 
+---
+
+## Limitations
+
+- Dataset size is limited  
+- May not generalize to all populations  
+- Requires validation with real clinical data
+   
 ---
 
 ## Future Improvements
